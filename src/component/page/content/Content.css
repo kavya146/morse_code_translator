@@ -1,0 +1,39 @@
+.content-style{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    border: 2px black solid;
+    height: 250px;
+    background-color: aliceblue;
+    width: 40vw;
+}
+
+.box-header{
+    font-size: x-large;
+    font-weight: 400;
+    background-color: #f7f7f7;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-style{
+    height: 30px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+hr{
+    margin: 0px;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: calc(250px - 60px);
+    margin-left: 30px;
+}
