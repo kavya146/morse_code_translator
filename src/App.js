@@ -6,7 +6,7 @@ import Content from "./component/page/content/Content";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "rgb(132 140 255)", height: "100vh" }}>
+    <div style={{ backgroundColor: "#ffe8009e", height: "100vh" }}>
       <Page />
     </div>
   );
